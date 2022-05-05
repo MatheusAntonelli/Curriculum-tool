@@ -1,0 +1,61 @@
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item-1 {
+    flex: 1;
+}
+
+/* Flex Item */
+.item {
+    margin: 4%;
+
+    text-align: center;
+}
+.grow2 {
+	flex-grow: 2;
+}
+
+.container {
+    border: 1px;
+    justify-content: space-around;
+}
+
+.profile-pic{
+    margin: 5%;
+}
+
+.name {
+    font-size: 2rem;
+    font-style:initial;
+    padding: 5%;
+    margin-right: 10p;
+}
+.header {
+    background: rgba(182, 144, 144, 0.121);
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100vw;
+}
+
+.horizontal {
+    padding-left: 100%;
+    width: 50px;
+    rotate: 35deg;
+}
+
+.box-info {
+    text-align: left;
+    padding: 5%;
+}
+
+.info-feature {
+    border: 1px solid blue;
+    background-color: rgb(230, 202, 202);
+    padding: 5%;
+    padding-left: 3%;
+    width: 120%;
+
+}
